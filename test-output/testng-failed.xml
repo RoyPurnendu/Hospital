@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Main project Practo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC001(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testcases.Test001">
+        <methods>
+          <include name="close"/>
+          <include name="firsttest"/>
+          <include name="Driversetup"/>
+        </methods>
+      </class> <!-- testcases.Test001 -->
+      <class name="testcases.TC002">
+        <methods>
+          <include name="surgeriestest"/>
+          <include name="close"/>
+          <include name="Driversetup"/>
+        </methods>
+      </class> <!-- testcases.TC002 -->
+    </classes>
+  </test> <!-- TC001(failed) -->
+</suite> <!-- Failed suite [Main project Practo] -->

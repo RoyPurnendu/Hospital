@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-03T10:51:30 IST" name="Main project Practo" finished-at="2024-06-03T13:40:03 IST" duration-ms="10112479">
+    <groups>
+    </groups>
+    <test started-at="2024-06-03T10:51:30 IST" name="TC001" finished-at="2024-06-03T13:40:03 IST" duration-ms="10112479">
+      <class name="testcases.TC003">
+        <test-method is-config="true" signature="Driversetup(java.lang.String)[pri:0, instance:testcases.TC003@b3ca52e]" started-at="2024-06-03T10:51:30 IST" name="Driversetup" finished-at="2024-06-03T10:52:25 IST" duration-ms="54473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Driversetup -->
+        <test-method signature="demotest()[pri:0, instance:testcases.TC003@b3ca52e]" started-at="2024-06-03T10:52:25 IST" name="demotest" finished-at="2024-06-03T13:39:50 IST" duration-ms="10044848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demotest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.TC003@b3ca52e]" started-at="2024-06-03T13:39:51 IST" name="close" finished-at="2024-06-03T13:40:03 IST" duration-ms="11378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.TC003 -->
+    </test> <!-- TC001 -->
+  </suite> <!-- Main project Practo -->
+</testng-results>
